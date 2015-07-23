@@ -56,7 +56,6 @@ html {
 }
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-	background-color:transparent;
 	color:green;
 }
 
@@ -78,6 +77,12 @@ html {
     margin-top:15px;
 }
 
+.nav .dropdown-toggle .caret { /*removes caret*/
+}
+
+.dropdown:hover .dropdown-menu{  /*Hover Dropwdown menu*/
+    display: block;
+ }
 
 .imageHeader {
 	width:100%;
@@ -92,7 +97,7 @@ html {
 	height: 80px;
 	background-color:#FFFFFF;
 	border-top: 2px solid #CCC;
-	text-align: center;    
+	text-align: center;
 	font-weight: 200;
 	width: 100%;
 }
