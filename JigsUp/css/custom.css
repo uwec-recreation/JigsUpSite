@@ -84,10 +84,9 @@ html {
     display: block;
  }
 
-.imageHeader {
-	width:100%;
-	height:auto;
-}
+ #image {
+     width: 100%;
+ }
 
 .footer {
 	position: absolute;
